@@ -11,7 +11,7 @@ import {SimplePokemon} from '../interfaces/pokemonInterfaces';
 import {FadeInImage} from './FadeInImage';
 import {getImageColors} from '../helpers/getImageColors';
 import {NavigationProp, useNavigation} from '@react-navigation/core';
-import {RootStackParams} from '../navigator/StackNavigator';
+import {RootStackParams} from '../navigator/Tab1';
 
 interface Props {
   pokemon: SimplePokemon;
